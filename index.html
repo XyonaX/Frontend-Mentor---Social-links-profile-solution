@@ -11,18 +11,25 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <script>
       tailwind.config = {
         theme: {
           fontFamily: {
-            'inter': ['Inter','sans-serif'],
+            inter: ["Inter", "sans-serif"],
           },
           extend: {
             colors: {
@@ -30,39 +37,70 @@
               twhite: "hsl(0, 0%, 100%)",
               darkgray: "hsl(0, 0%, 12%)",
               offblack: "hsl(0, 0%, 8%)",
-              gray: "hsl(0, 0%, 20%)"
-            }
-          }
-        }
-      }
+              gray: "hsl(0, 0%, 20%)",
+            },
+          },
+        },
+      };
     </script>
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body class="bg-offblack flex justify-center items-center h-screen font-inter">
-   <article class="mx-auto flex flex-col bg-darkgray  justify-evenly items-center w-96 h-4/5 p-4 rounded-lg ">      
-      <div class="flex flex-col justify-center items-center">
-        <img  src="./assets/images/avatar-jessica.jpeg" alt="profile-photo" class="rounded-full h-20">
-        <div class="text-center text-twhite ">
-          <div class="my-4">
-            <h1 class="text-xl mb-2 text-wrap">Jessica Randall</h1>
-            <h4 class="text-primary text-xs font-semibold text-wrap">London, United Kingdom</h4>
+  <body
+    class="bg-offblack flex justify-center items-center h-screen font-inter"
+  >
+    <main>
+      <article
+        class="mx-auto flex flex-col bg-darkgray justify-evenly items-center w-96 h-4/5 p-4 rounded-lg"
+      >
+        <div class="flex flex-col justify-center items-center">
+          <img
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="profile-photo"
+            class="rounded-full h-20"
+          />
+          <div class="text-center text-twhite">
+            <div class="my-4">
+              <h1 class="text-xl mb-2 text-wrap">Jessica Randall</h1>
+              <h4 class="text-primary text-xs font-semibold text-wrap">
+                London, United Kingdom
+              </h4>
+            </div>
           </div>
-    
+          <h4 class="text-sm text-twhite my-3 text-wrap">
+            "Front-end developer and avid reader."
+          </h4>
         </div>
-        <h4 class="text-sm text-twhite mt-5 text-wrap">"Front-end developer and avid reader."</h4>
-      </div>
-      
-  
-      <div class="text-twhite text-center w-full text-sm">
-        <ul>
-          <li class="bg-gray  rounded-md h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"><a href="">GitHub</a></li>
-          <li class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black  cursor-pointer font-bold text-nowrap"><a href="">Frontend Mentor</a></li>
-          <li class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black  cursor-pointer font-bold text-nowrap"><a href="">LinkedIn</a></li>
-          <li class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black  cursor-pointer font-bold text-nowrap"><a href="">Twitter</a></li>
-          <li class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black  cursor-pointer font-bold text-nowrap"><a href="">Instagram</a></li>
-        </ul>
-      </div>
-   </article>
-    </div>
+
+        <div class="text-twhite text-center w-full text-sm">
+          <ul>
+            <li
+              class="bg-gray rounded-md h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"
+            >
+              <a href="">GitHub</a>
+            </li>
+            <li
+              class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"
+            >
+              <a href="">Frontend Mentor</a>
+            </li>
+            <li
+              class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"
+            >
+              <a href="">LinkedIn</a>
+            </li>
+            <li
+              class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"
+            >
+              <a href="">Twitter</a>
+            </li>
+            <li
+              class="bg-gray rounded-md my-4 h-10 flex justify-center items-center hover:bg-primary hover:text-black cursor-pointer font-bold text-nowrap"
+            >
+              <a href="">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
